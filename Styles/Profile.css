@@ -118,3 +118,74 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+#foot {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+/* Footer Styling */
+.footer {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  color: #ff8f00;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff8f00;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.insta {
+  width: 25px;
+}
+
+.git {
+  width: 25px;
+}
