@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Profile {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+  background: url(../images/Profile-background.jpg) no-repeat center / cover;
+}
+
+.profile-container {
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(145deg, #ff6ec7, #ff8f00);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 2px solid #ff8f00;
+}
+
+.profile-header h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.profile-details {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.profile-details p {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-details p:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.profile-details strong {
+  color: #ffec40;
+  font-weight: bold;
+}
+
+.profile-details p:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-details p:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+li,
+a,
+button {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  border: solid white 3px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252ac6;
+}
+
+.logo {
+  cursor: pointer;
+  width: 57px;
+  border-radius: 500px;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
